@@ -1,0 +1,39 @@
+.list__item{
+    cursor: pointer;
+    &:hover{
+        border-bottom: 3px solid $light-orange;
+        
+    }
+}
+
+input{
+    padding: 0.2rem;
+    margin-right: .3rem;
+    width: 150px;
+    border: none;
+    border-radius: 2px;
+
+    &:focus{
+        background-color: $light-orange;
+        color: white;
+    }
+
+
+}
+
+button{
+    border: none;
+    border-radius: 2px;
+    padding: 0.2rem;
+    background-color: $light-orange;
+    cursor: pointer;
+
+    &:hover{
+        background-color: white;
+    }
+    &:active{
+        transform: scale(0.9);
+        transition: 0.2s;
+    }
+
+}
